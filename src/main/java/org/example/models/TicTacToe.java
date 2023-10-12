@@ -90,6 +90,7 @@ public class TicTacToe {
                 }
             }
         }
+        status = GameStatus.DRAWN;
         return true;
     }
 }
